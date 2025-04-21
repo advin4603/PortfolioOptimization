@@ -1,0 +1,18 @@
+[project]
+name = "project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10, <3.12"
+dependencies = [
+    "finrl",
+    "gym>=0.26.2",
+    "jupyter>=1.1.1",
+    "pandas-market-calendars>=4.6.1",
+    "quantstats>=0.0.64",
+    "shimmy>=2.0",
+    "torch-geometric>=2.6.1",
+]
+
+[tool.uv.sources]
+finrl = { git = "https://github.com/AI4Finance-LLC/FinRL-Library.git" }
