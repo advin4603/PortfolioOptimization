@@ -1,0 +1,11 @@
+finrl==0.3.5
+pandas
+numpy
+matplotlib
+gym==0.21.0
+torch
+stable-baselines3==1.6.2
+scikit-learn
+yfinance
+tqdm
+gymnasium==0.29.1
